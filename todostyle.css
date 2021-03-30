@@ -86,3 +86,14 @@ input:focus{
 .delete{
     background-color: red;
 }
+
+@media screen and (max-width: 576px) { 
+    #items-list{
+        padding-left: 0px;
+    }
+
+    .todo-list{
+        width: 100%;
+    }
+
+}
